@@ -1,0 +1,912 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(175, 151, 116);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 8px;
+}
+
+section {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr;
+    grid-template-rows: 80px;
+    gap: 5px;
+}
+
+nav {
+    margin-top: 15px;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 170px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    text-align: center;
+}
+
+.logo {
+    justify-content: end;
+}
+
+.logotaylor {
+    height: 80px;
+    margin: 8px 8px 4px 4px;
+    padding: 4px;
+}
+
+#uno {
+    background-color: rgb(192, 126, 218);
+    color: aqua;
+}
+
+.oliviaa {
+    color: rgb(92, 0, 92);
+}
+
+#dos {
+    background-color: pink;
+    color: rgb(163, 139, 0);
+
+}
+
+.emiliaa {
+    color: rgb(243, 0, 134);
+}
+
+#tres {
+    background-color: rgb(14, 0, 143);
+    color: rgb(92, 35, 92);
+
+}
+
+.truenoa {
+    color: rgb(180, 180, 255);
+}
+
+#cuatro {
+    background-color: rgb(170, 170, 170);
+    color: rgb(231, 170, 170);
+
+}
+
+.taylora {
+    color: rgb(66, 66, 66);
+}
+
+#cinco {
+    background-color: rgb(255, 163, 88);
+    color: rgb(0, 88, 117);
+
+}
+
+.ysyaa {
+    color: rgb(218, 58, 0);
+}
+
+#seis {
+    background-color: rgb(147, 166, 253);
+    padding: 7px;
+}
+
+.sabrinaa {
+    color: rgb(0, 0, 160);
+}
+
+#siete {
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+
+}
+
+.dukia {
+    color: aliceblue;
+}
+
+#ocho {
+    background-color: rgb(247, 0, 144);
+    color: rgb(54, 54, 54);
+
+}
+
+.arianaa {
+    color: pink;
+}
+
+#nueve {
+    background-color: rgb(132, 230, 145);
+    color: rgb(202, 135, 104);
+
+}
+
+.nickia {
+    color: rgb(76, 131, 60);
+}
+
+#diez {
+    background-color: rgb(79, 155, 88);
+    color: rgb(182, 182, 255);
+}
+
+.louisa {
+    color: rgb(169, 255, 181);
+}
+
+#once {
+    background-color: rgb(255, 246, 120);
+    color: rgb(87, 87, 87);
+}
+
+.graciea {
+    color: rgb(255, 0, 140);
+}
+
+#doce {
+    background-color: rgb(209, 28, 28);
+    color: rgb(87, 87, 87);
+}
+
+.harrya {
+    color: rgb(255, 178, 178);
+}
+
+#trece {
+    background-color: rgb(136, 101, 80);
+    color: rgb(87, 87, 87);
+}
+
+.croa {
+    color: rgb(56, 41, 35);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#principal {
+    width: 250px;
+}
+
+.container-icon {
+    position: relative;
+}
+
+/*------albumes en head----*/
+.container-items {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax (160px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    align-items: flex-start;
+    width: 60vw;
+    margin: 0 auto 0 auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    row-gap: 10px;
+}
+
+.items {
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+}
+
+.info.producto {
+    padding: 15px 30px;
+}
+
+.emiliainicio {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+.arianainicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.oliviainicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sabrinainicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.dukiinicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.ysyinicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.taylorinicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.nickiinicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.truenoinicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.harryinicio {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 10px;
+    font-weight: 900;
+}
+
+button {
+    background: none;
+    background-color: rgb(206, 20, 76);
+    color: aliceblue;
+    padding: 15px 7px;
+    cursor: pointer;
+    border: none;
+    font-size: 13px;
+}
+
+.imagen_transparente {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(110, 70, 116);
+    color: rgb(218, 182, 252);
+}
+
+.olivia {
+    color: rgb(218, 182, 252);
+
+}
+
+.or {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bolivia {
+    background: none;
+    background-color: rgb(218, 182, 252);
+    color: rgb(110, 70, 116);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparentee {
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+    color: rgb(175, 10, 87);
+}
+
+.emi {
+    color: rgb(197, 14, 100);
+}
+
+.em {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bemilia {
+    background: none;
+    background-color: rgb(197, 14, 100);
+    color: rgb(252, 225, 239);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteee {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(46, 48, 99);
+    color: rgb(160, 161, 216);
+}
+
+.mateo {
+    color: lightblue;
+}
+
+.tr {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.btrueno {
+    background: none;
+    background-color: rgb(160, 161, 228);
+    color: rgb(40, 42, 88);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeee {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(190, 188, 188);
+    color: rgb(70, 69, 69);
+}
+
+.tay {
+    color: rgb(88, 86, 86);
+}
+
+.ttpda {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.ttpd {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.style {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sn {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.midnights {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.fearless {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.evermore {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.folklore {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.lover {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.rep {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.debut {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.btaylor {
+    background: none;
+    background-color: rgb(82, 81, 81);
+    color: rgb(255, 255, 255);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeee {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(207, 120, 70);
+    color: rgb(99, 42, 9);
+}
+
+.ysya {
+    color: rgb(138, 29, 2);
+}
+
+.ysy {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bysy {
+    background: none;
+    background-color: rgb(155, 31, 0);
+    color: rgb(248, 181, 143);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeee {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(122, 152, 207);
+    color: rgb(1, 15, 94);
+}
+
+.sabrina {
+    color: rgb(1, 19, 122);
+}
+
+.sc {
+    width: 100px;
+    height: 100px;
+    object-fit: cover
+}
+
+.bsabrina {
+    background: none;
+    background-color: rgb(1, 16, 104);
+    color: rgb(148, 185, 255);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeeee {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.duki {
+    color: aliceblue;
+}
+
+.dk {
+    width: 100px;
+    height: 100px;
+    object-fit: cover
+}
+
+.bduki {
+    background: none;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeeeee {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(194, 10, 96);
+    color: pink;
+}
+
+.ariana {
+
+    color: pink;
+}
+
+.ag {
+    width: 100px;
+    height: 100px;
+    object-fit: cover
+}
+
+.bariana {
+    background: none;
+    background-color: rgb(255, 152, 187);
+    color: rgb(143, 13, 67);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeeeeee {
+    color: rgb(36, 70, 46);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(87, 155, 105);
+}
+
+.nicki {
+    color: rgb(34, 88, 46);
+}
+
+.nn {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bnicki {
+    background: none;
+    background-color: rgb(47, 90, 60);
+    color: rgb(138, 219, 160);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeeeeeee {
+    color: rgb(197, 253, 192);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(47, 90, 60);
+}
+
+.louis {
+    color: rgb(156, 250, 164);
+}
+
+.lt {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.blouis {
+    background: none;
+    background-color: rgb(156, 250, 164);
+    color: rgb(35, 68, 45);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeeeeeeee {
+    color: rgb(182, 0, 55);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(238, 223, 89);
+}
+
+.gracie {
+    color: rgb(218, 19, 79);
+}
+
+.ga {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bgracie {
+    background: none;
+    background-color: rgb(241, 23, 89);
+    color: rgb(253, 255, 159);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeeeeeeeee {
+    color: rgb(255, 157, 144);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(126, 32, 32);
+}
+
+.harry {
+    color: rgb(255, 137, 137);
+}
+
+.hs {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bharry {
+    background: none;
+    background-color: rgb(238, 118, 118);
+    color: rgb(95, 11, 11);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.imagen_transparenteeeeeeeeeeeee {
+    color: rgb(51, 32, 19);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(163, 98, 67);
+}
+
+.cro {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.bcro {
+    background: none;
+    background-color: rgb(95, 47, 24);
+    color: rgb(197, 149, 126);
+    padding: 15px 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: 990;
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.container-itemsolivia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 73vw;
+    margin: 140px 100px 150px 195px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemsemilia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 85vw;
+    margin: 130px 100px 150px 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemstrueno {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 60vw;
+    margin: 150px 200px 150px 290px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemstaylor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 85vw;
+    margin: 130px 100px 150px 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemsysy {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 72vw;
+    margin: 140px 100px 150px 195px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemssabrina {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 85vw;
+    margin: 130px 100px 150px 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemsduki {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 60vw;
+    margin: 150px 200px 150px 290px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemsariana {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 72vw;
+    margin: 140px 100px 150px 195px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemsnicki {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 60vw;
+    margin: 150px 200px 150px 290px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemslouis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 60vw;
+    margin: 150px 200px 150px 290px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemsgracie {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 85vw;
+    margin: 130px 100px 150px 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemsharry {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 85vw;
+    margin: 130px 100px 150px 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+.container-itemscro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+    width: 85vw;
+    margin: 130px 100px 150px 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-weight: 900;
+    gap: 20px;
+}
+
+footer {
+    height: 150px;
+    background-color: rgb(175, 151, 116);
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+}
+
+@media (width < 600px) {}
